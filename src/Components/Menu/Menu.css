@@ -1,0 +1,23 @@
+.menuCategories {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.menuItem {
+  height: 100%;
+  width: auto;
+  background: #333;
+  border: none;
+  border-left: 1px solid #ccc;
+  padding: 20px;
+  color: #fff;
+}
+
+.menuCategories::-webkit-scrollbar {
+  display: none;
+}

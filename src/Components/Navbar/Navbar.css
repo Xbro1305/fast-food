@@ -1,0 +1,38 @@
+.nav {
+  width: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between !important;
+}
+
+.nav > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hamMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 25px;
+}
+
+.search {
+  height: 40px;
+  width: 85px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  transition: all 0.5s ease;
+}
+
+.search.active {
+  width: 300px;
+}

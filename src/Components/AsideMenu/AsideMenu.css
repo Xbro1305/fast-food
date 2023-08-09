@@ -1,0 +1,14 @@
+.AsideMenu.active {
+  width: 30%;
+  height: calc(100vh - 60px);
+  background: #3333;
+  left: 0;
+  backdrop-filter: blur(10px);
+}
+
+.AsideMenu {
+  transition: all 0.3s ease !important;
+  position: absolute;
+  top: 60px;
+  left: -100%;
+}

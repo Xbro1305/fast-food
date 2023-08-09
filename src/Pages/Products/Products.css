@@ -1,0 +1,15 @@
+.products {
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px;
+  overflow: hidden;
+  overflow-y: auto;
+  align-content: flex-start;
+}
+
+.products::-webkit-scrollbar {
+  display: none;
+}
